@@ -17,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html data-theme="garden">
-      <body className={onest.className}>
+    <html data-theme="lofi" className='p-8'>
+      <body className={onest.className + "tracking-wider leading-normal"}>
       <Navbar/>
       {children}
       <Footer/>
