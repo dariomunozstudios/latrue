@@ -7,8 +7,9 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   plugins: [require("daisyui")],
-  daisy: {
-    themes: true
+  daisyui: {
+    themes: true,
+    darkTheme: "coffee",
   }
 }
 export default config
