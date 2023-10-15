@@ -1,5 +1,15 @@
 import React from "react"
 import { BsChatLeftHeartFill } from "react-icons/bs"
+import { Popover, Transition } from '@headlessui/react'
+
+const join = [
+{
+name: 'Publish',
+href: '##',
+icon: PublishIcon,
+},
+]
+
 const Navbar = () => {
     return (
         <div className="sticky top-8 flex justify-between items-center">
@@ -15,5 +25,12 @@ const Navbar = () => {
         </div>
     )
 }
+
+function PublishIcon(){
+    return(
+        <></>
+    )
+}
+
 
 export default Navbar
