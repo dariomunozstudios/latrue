@@ -4,7 +4,6 @@ import { BsChatLeftHeartFill } from "react-icons/bs"
 import { MdPublish } from "react-icons/md"
 import { Popover, Transition } from '@headlessui/react'
 
-
 const Navbar = () => {
     return (
         <div className="sticky top-8 flex justify-between items-center">
