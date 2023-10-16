@@ -1,5 +1,6 @@
 import { FaDownload } from "react-icons/fa"
 import { AiFillHeart } from "react-icons/ai"
+import { BiLogoFacebookSquare, BiLogoInstagramAlt, BiLogoWhatsappSquare } from "react-icons/bi"
 
 
 const Footer = () => {
@@ -43,12 +44,33 @@ const Footer = () => {
                                                         <div className="collapse collapse-plus bg-base-200">
                                                           <input type="radio" name="my-accordion-3" /> 
                                                             <div className="collapse-title text-xl font-medium">
-                            
+                          Tecnología  
                                                                   </div>
                                                                     <div className="collapse-content"> 
-                                                                        <p>hello</p>
-                                                                          </div>
-                                                                          </div>
+                                                                        <p>Nuestro proyecto </p>
+                                                                          </div>                          </div>
+                                                <div className="flex justify-center gap-8">
+                    <BiLogoFacebookSquare size={20}/>
+                    
+                    <BiLogoInstagramAlt size={20}/>      
+                    
+                    <BiLogoWhatsappSquare size={20}/>
+
+                
+                                   </div>    
+
+          <div className="flex justify-between text-content">
+
+<div>
+  © Todos los derechos reservados - 2023
+  </div>
+
+  <div>
+    Desarollado por Dario Muñoz
+    </div>
+
+            </div>        
+
         </div>
         
         </div>
