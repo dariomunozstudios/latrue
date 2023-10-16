@@ -14,7 +14,7 @@ const Navbar = () => {
         
         
 <div className="btn btn-primary">
-    Join <BsChatLeftHeartFill/>
+    Únete <BsChatLeftHeartFill/>
 
 </div>
 

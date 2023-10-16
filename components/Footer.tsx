@@ -59,14 +59,14 @@ const Footer = () => {
                 
                                    </div>    
 
-          <div className="flex justify-between text-content">
+          <div className="flex justify-between text-content text-xs">
 
 <div>
-  © Todos los derechos reservados - 2023
+  © Al rights reserved
   </div>
 
-  <div>
-    Desarollado por Dario Muñoz
+  <div className="text-right">
+    Dev by Dario Muñoz
     </div>
 
             </div>        
