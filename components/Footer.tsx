@@ -5,7 +5,7 @@ import { BiLogoFacebookSquare, BiLogoInstagramAlt, BiLogoWhatsappSquare } from "
 
 const Footer = () => {
     return(
-        <div className="card-body shadow-xl">
+        <div className="card-body shadow-xl mt-8">
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 
