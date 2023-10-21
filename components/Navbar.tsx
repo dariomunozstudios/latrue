@@ -1,15 +1,27 @@
 "use client"
-import React, { Fragment } from "react"
-import { BsChatLeftHeartFill } from "react-icons/bs"
-import { MdPublish } from "react-icons/md"
-import { BiUser } from "react-icons/bi"
-import { Popover, Transition } from '@headlessui/react'
+import {
+      DropdownMenu,
+        DropdownMenuContent,
+          DropdownMenuItem,
+            DropdownMenuLabel,
+              DropdownMenuSeparator,
+                DropdownMenuTrigger,
+                } from "@/components/ui/dropdown-menu"
 
 const Navbar = () => {
     return (
-<div>
+<DropdownMenu>
+      <DropdownMenuTrigger>Open</DropdownMenuTrigger>
+        <DropdownMenuContent>
+            <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                <DropdownMenuSeparator />
+                    <DropdownMenuItem>Profile</DropdownMenuItem>
+                        <DropdownMenuItem>Billing</DropdownMenuItem>
+                            <DropdownMenuItem>Team</DropdownMenuItem>
+                                <DropdownMenuItem>Subscription</DropdownMenuItem>
+                                  </DropdownMenuContent>
+                                  </DropdownMenu>
 
-</div>
 )
 }
 
