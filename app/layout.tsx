@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html data-theme="lofi" className='bg-[#fff]'>
+    <html>
       <body className={onest.className + "tracking-wider leading-normal"}>
       <Navbar/>
       {children}
