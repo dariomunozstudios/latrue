@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body className={onest.className + "tracking-wider leading-normal"}>
+      <body className={onest.className + "tracking-wider leading-normal p-8"}>
       <Navbar/>
       {children}
       </body>
