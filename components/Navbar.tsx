@@ -1,26 +1,27 @@
 "use client"
 import {
-      DropdownMenu,
-        DropdownMenuContent,
-          DropdownMenuItem,
-            DropdownMenuLabel,
-              DropdownMenuSeparator,
-                DropdownMenuTrigger,
-                } from "@/components/ui/dropdown-menu"
+DropdownMenu,
+ DropdownMenuContent,
+DropdownMenuItem,
+DropdownMenuLabel,
+DropdownMenuSeparator,
+ DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
 
 const Navbar = () => {
     return (
-<DropdownMenu>
-      <DropdownMenuTrigger>Open</DropdownMenuTrigger>
-        <DropdownMenuContent>
-            <DropdownMenuLabel>My Account</DropdownMenuLabel>
-                <DropdownMenuSeparator />
-                    <DropdownMenuItem>Profile</DropdownMenuItem>
-                        <DropdownMenuItem>Billing</DropdownMenuItem>
-                            <DropdownMenuItem>Team</DropdownMenuItem>
-                                <DropdownMenuItem>Subscription</DropdownMenuItem>
-                                  </DropdownMenuContent>
-                                  </DropdownMenu>
+  <div className="fixed top-0 p-4 flex justify-betqeen">
+<DropdownMenu> <DropdownMenuTrigger className="rounded-full">Open</DropdownMenuTrigger>
+<DropdownMenuContent>
+<DropdownMenuLabel>My Account</DropdownMenuLabel>
+<DropdownMenuSeparator />
+<DropdownMenuItem>Profile</DropdownMenuItem>
+ <DropdownMenuItem>Billing</DropdownMenuItem>
+   <DropdownMenuItem>Team</DropdownMenuItem>
+  <DropdownMenuItem>Subscription</DropdownMenuItem>
+</DropdownMenuContent>
+ </DropdownMenu>
+       </div>
 
 )
 }
