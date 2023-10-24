@@ -1,0 +1,11 @@
+"use client"
+import { app, auth, provider } from "./firebase"
+import { Button } from "@/components/ui/button"
+
+export default function Login() {
+    return (
+        <main>
+<Button variant="outline">LOGIN</Button>
+        </main>
+    )
+}
