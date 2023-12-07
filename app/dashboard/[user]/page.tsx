@@ -9,6 +9,9 @@ export default function Dashboard() {
         return (
             <div className="p-10">
                 {user?.displayName}
+                <div>
+                    Form
+                </div>
             </div>
         )
     }
