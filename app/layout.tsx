@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Onest } from 'next/font/google'
+import { AuthProvider } from '@/components/FirebaseContext'
 
 const onest = Onest({ subsets: ['latin'] })
 
@@ -17,10 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body className={onest.className + "tracking-wider leading-normal p-8"}>
-      <Navbar/>
-      {children}
-      </body>
+      <AuthProvider>
+        <body className={onest.className + "tracking-wider leading-normal p-8"}>
+          <Navbar />
+          {children}
+        </body>
+      </AuthProvider>
     </html>
   )
 }
